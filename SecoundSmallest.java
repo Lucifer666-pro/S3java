@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class SecoundSmallest{
 public static void main(String arr[]){
 Scanner s=new Scanner(System.in);
-System.out.println("Enter the number of element 557 in the integer array:");
+System.out.println("Enter the number of element  in the integer array:");
 int noOfElement=s.nextInt();
 int [] array=new int [noOfElement];
 System.out.println("Enter the "+noOfElement+" elements:");
