@@ -9,19 +9,21 @@ public class fibonacci{
 
 public static void main(String arr[])
 {
-int num,i,g=0,k=1,l;
+int num,i,g=0,k=1,m=l;
 Scanner s=new Scanner(System.in);
-System.out.println("Fibonacci");
-System.out.println("Enter the number :");
+ 
+System.out.print("Fibonacci");
+System.out.println("Enter a number :");
 num=s.nextInt();
-System.out.println("The fibonacci series of "+num+" is ");
+System.out.println("The fibonacci series of "+num+" is :");
 for(i=0;i<num;i++)
 {System.out.print(g+"\t");
 l=g+k;
 g=k;
 k=l;
-
+m=0;
 
 }
+ System.out.println("Result:The program has been executed successfully");
 }
 }
